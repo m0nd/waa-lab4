@@ -2,8 +2,8 @@ package waa.labs.lab4.services.impl;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import waa.labs.lab4.domains.Comment;
-import waa.labs.lab4.domains.dtos.CommentDto;
+import waa.labs.lab4.domain.Comment;
+import waa.labs.lab4.dtos.CommentDto;
 import waa.labs.lab4.helpers.ListMapper;
 import waa.labs.lab4.repositories.ICommentRepo;
 import waa.labs.lab4.services.ICommentService;

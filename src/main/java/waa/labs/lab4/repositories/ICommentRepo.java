@@ -1,7 +1,7 @@
 package waa.labs.lab4.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import waa.labs.lab4.domains.Comment;
+import waa.labs.lab4.domain.Comment;
 
 import java.util.List;
 

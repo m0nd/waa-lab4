@@ -1,4 +1,4 @@
-package waa.labs.lab4.domains;
+package waa.labs.lab4.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,11 +1,8 @@
 package waa.labs.lab4.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import waa.labs.lab4.domains.dtos.CommentDto;
+import org.springframework.web.bind.annotation.*;
+import waa.labs.lab4.dtos.CommentDto;
 import waa.labs.lab4.services.ICommentService;
 
 import java.util.List;
