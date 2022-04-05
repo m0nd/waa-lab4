@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 @Getter
 @Setter
@@ -15,7 +16,8 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "exception")
 public class ExceptionTracker {
-    static final String principleName = "rbroome";
+    @Transient
+    public static final String PRINCIPLE_NAME = "rbroome";
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,7 +25,7 @@ public class ExceptionTracker {
     Long transactionId;
 
     LocalDate date;
-    LocalDate time;
+    LocalTime time;
     String principle;
     String operation;
     String exceptionType;

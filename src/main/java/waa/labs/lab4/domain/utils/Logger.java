@@ -16,7 +16,8 @@ import java.time.LocalTime;
 @AllArgsConstructor
 @Entity
 public class Logger {
-    static final String principleName = "rbroome";
+    @Transient
+    public static final String PRINCIPLE_NAME = "rbroome";
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
